@@ -1,0 +1,66 @@
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+   <h1 class="text__weather">Here is the forcast for</h1>
+    <h1  class="text__weather__city" id="cityName"></h1> 
+ <div class="data">
+<div class="container">
+    <div class="row">
+      <div class="col-3">
+        <img class="weatherIcon">
+      </div>
+      <div class="col-3">
+          <p class="weather__info">Temperature right now</p>
+        <p class="weather__info p--inline" id="temperature"></p>
+            <p class="weather__info p--inline">°C</p>
+      </div>
+      <div class="col-3">
+        <p class="weather__info">Temperature minimum</p>
+      <p class="weather__info p--inline" id="tempMin"></p>
+      <p class="weather__info p--inline">°C</p>
+    </div>
+    <div class="col-3">
+        <p class="weather__info">Temperature maximum</p>
+            <p class="weather__info p--inline" id="tempMax"></p>
+            <p class="weather__info p--inline">°C</p>
+    </div>
+    <div class="row" style="margin-top: 5vh;">
+        <div class="col-3">
+            
+        </div>
+        <div class="col-3">
+            <p class="weather__info">Wind</p>
+                <p class="weather__info p--inline" id="wind"></p>
+                <p class="weather__info p--inline">km/h</p>
+        </div>
+        <div class="col-3">
+            <p class="weather__info">Clouds</p>
+           <p class="weather__info p--inline" id="cloud"></p>
+           <p class="weather__info p--inline">%</p>
+      </div>
+      <div class="col-3" style="margin-top: 3vh;">
+      <p class="weather__info p--inline">Sunrise time:</p>
+      <p class="weather__info p--inline" id="sunrisetime"> </p>
+         <br><br>
+      <p class="weather__info p--inline">Sunset time:</p>
+      <p class="weather__info p--inline" id="sunsettime"> </p>
+    </div>
+    
+  </div>
+  <div class="row" style="margin-top: 5vh;">
+    <div class="col-3"></div>
+    <div class="col-3"></div>
+    <div class="col-3"></div>
+    <div class="col-3">
+  <button type="button" class="btn btn-primary btn_print noPrint">Print</button>
+    </div>
+ </div>
+ <a role="button" href="index.html" class="btn btn-primary btn__searchAgain noPrint ">Search again</a>
+    </div>
+    </body>
+    <script src="weather.js"></script>
+    

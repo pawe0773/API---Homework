@@ -1,0 +1,75 @@
+body{
+background-image: url("home.jpg");
+background-size: cover;
+}
+.text__welcome{
+    margin-top: 10vh;
+    text-align: center;
+    color: rgb(6, 19, 31);
+    font-size: 3em;
+}
+.form__div{
+    display: block;
+    text-align: center;
+}
+.form__input{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 10vh;
+    width: 50vh;
+}
+.btn__search{
+    background-color: rgb(38, 60, 90);
+}
+.text__weather, .text__weather__city{
+    margin-top: 3vh;
+    text-align: center;
+    color: rgb(6, 19, 31);
+    
+}
+.text__weather__city{
+    text-transform: uppercase !important;
+}
+.data{
+    background-color: rgba(145, 137, 137, 0.493);
+    margin-top: 10vh;
+    width: 80vw;
+    height: 60vh;
+    margin-left: 5vw;
+}
+
+.weatherIcon{
+    width: 10vw;
+    height: 20vh;
+    text-align: center;
+}
+.weather__info{
+    color:honeydew;
+    margin-top: 3vh;
+    text-align: left;
+    font-size: 1.5em;
+}
+.p--inline{
+    display: inline;
+}
+.weatherIcon__small{
+ width: 5vw;
+}
+.btn_print{
+    margin-top: 5vh;
+    display: block;
+    width: 100%;
+}
+.btn__searchAgain{
+    background-color: rgb(11, 11, 145) !important;
+    width: 35vh;
+    margin-left: 59.5vw;
+    margin-top: 5vh;
+}
+@media print {
+    .noPrint{
+      display:none;
+    }
+}
